@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="13F34" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Data" representedClassName="beta.Data" syncable="YES">
+        <attribute name="crop" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="depth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="harvestmonth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoFullURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoThumbURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="plantedmonth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ref" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rows" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="soiltype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spacing" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="variety" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Data" positionX="-63" positionY="-18" width="128" height="225"/>
+    </elements>
 </model>

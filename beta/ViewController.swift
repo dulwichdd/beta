@@ -20,6 +20,38 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        
+        if (segue.identifier == "bed1") {
+            let IVC: seasonViewController = segue.destinationViewController as seasonViewController
+            IVC.title = "Bed 1"
+            
+        }else{
+            if (segue.identifier == "bed2") {
+                let IVC: seasonViewController = segue.destinationViewController as seasonViewController
+                IVC.title = "Bed 2"
+                
+            }else{
+                if (segue.identifier == "bed3") {
+                    let IVC: seasonViewController = segue.destinationViewController as seasonViewController
+                    IVC.title = "Bed 3"
+                }else{
+                    if (segue.identifier == "bed4") {
+                        let IVC: seasonViewController = segue.destinationViewController as seasonViewController
+                        IVC.title = "Bed 4"
+                        
+                    }else{
+                        if (segue.identifier == "bed5") {
+                            let IVC: seasonViewController = segue.destinationViewController as seasonViewController
+                            IVC.title = "Bed 5"
 
+}
+}
+}
+}
+}
+}
 }
 

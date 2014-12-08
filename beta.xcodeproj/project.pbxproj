@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0391CB1A2CDAF900FDA3DC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0391CA1A2CDAF900FDA3DC /* Data.swift */; };
+		EE9BE8201A2DD51E0079EE7D /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9BE81F1A2DD51E0079EE7D /* myCell.swift */; };
 		EE9D00001A2B423C00492167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9DFFFE1A2B423C00492167 /* Main.storyboard */; };
 		EE9D00021A2B423C00492167 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9D00011A2B423C00492167 /* Images.xcassets */; };
 		EE9D00051A2B423C00492167 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE9D00031A2B423C00492167 /* LaunchScreen.xib */; };
 		EE9D00111A2B423D00492167 /* betaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D00101A2B423D00492167 /* betaTests.swift */; };
+		EE9D001B1A2B426100492167 /* no_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9D001A1A2B426100492167 /* no_photo.png */; };
+		EE9D001E1A2B426800492167 /* beds.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9D001C1A2B426800492167 /* beds.png */; };
+		EE9D001F1A2B426800492167 /* bedsportrait.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9D001D1A2B426800492167 /* bedsportrait.png */; };
+		EE9D00211A2B450300492167 /* seasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D00201A2B450300492167 /* seasonViewController.swift */; };
+		EE9D00231A2B451500492167 /* masterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D00221A2B451500492167 /* masterTableViewController.swift */; };
+		EE9D00251A2B483400492167 /* additionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D00241A2B483400492167 /* additionViewController.swift */; };
+		EE9D00271A2B7C9400492167 /* cropsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D00261A2B7C9400492167 /* cropsTableViewController.swift */; };
+		EE9D00291A2B7CDD00492167 /* cropsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D00281A2B7CDD00492167 /* cropsViewController.swift */; };
 		EE9DFFF81A2B423C00492167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DFFF71A2B423C00492167 /* AppDelegate.swift */; };
 		EE9DFFFB1A2B423C00492167 /* beta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE9DFFF91A2B423C00492167 /* beta.xcdatamodeld */; };
 		EE9DFFFD1A2B423C00492167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DFFFC1A2B423C00492167 /* ViewController.swift */; };
+		EED647191A2F849B00079D81 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = EED647181A2F849B00079D81 /* 120.png */; };
+		EED6471C1A2F849F00079D81 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = EED6471A1A2F849F00079D81 /* 80.png */; };
+		EED6471D1A2F849F00079D81 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = EED6471B1A2F849F00079D81 /* 58.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +40,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE0391CA1A2CDAF900FDA3DC /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		EE9BE81F1A2DD51E0079EE7D /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = myCell.swift; path = ../myCell.swift; sourceTree = "<group>"; };
 		EE9D00011A2B423C00492167 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EE9D00041A2B423C00492167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EE9D000A1A2B423D00492167 /* betaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = betaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9D000F1A2B423D00492167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE9D00101A2B423D00492167 /* betaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betaTests.swift; sourceTree = "<group>"; };
+		EE9D001A1A2B426100492167 /* no_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_photo.png; sourceTree = "<group>"; };
+		EE9D001C1A2B426800492167 /* beds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beds.png; sourceTree = "<group>"; };
+		EE9D001D1A2B426800492167 /* bedsportrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bedsportrait.png; sourceTree = "<group>"; };
+		EE9D00201A2B450300492167 /* seasonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = seasonViewController.swift; path = ../seasonViewController.swift; sourceTree = "<group>"; };
+		EE9D00221A2B451500492167 /* masterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = masterTableViewController.swift; path = ../masterTableViewController.swift; sourceTree = "<group>"; };
+		EE9D00241A2B483400492167 /* additionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = additionViewController.swift; path = ../additionViewController.swift; sourceTree = "<group>"; };
+		EE9D00261A2B7C9400492167 /* cropsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cropsTableViewController.swift; path = ../cropsTableViewController.swift; sourceTree = "<group>"; };
+		EE9D00281A2B7CDD00492167 /* cropsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cropsViewController.swift; path = ../cropsViewController.swift; sourceTree = "<group>"; };
 		EE9DFFF21A2B423C00492167 /* beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9DFFF61A2B423C00492167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE9DFFF71A2B423C00492167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE9DFFFA1A2B423C00492167 /* beta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = beta.xcdatamodel; sourceTree = "<group>"; };
 		EE9DFFFC1A2B423C00492167 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE9DFFFF1A2B423C00492167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EED647181A2F849B00079D81 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		EED6471A1A2F849F00079D81 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		EED6471B1A2F849F00079D81 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +104,7 @@
 		EE9DFFE91A2B423C00492167 = {
 			isa = PBXGroup;
 			children = (
+				EE9DFFFE1A2B423C00492167 /* Main.storyboard */,
 				EE9DFFF41A2B423C00492167 /* beta */,
 				EE9D000D1A2B423D00492167 /* betaTests */,
 				EE9DFFF31A2B423C00492167 /* Products */,
@@ -96,12 +123,18 @@
 		EE9DFFF41A2B423C00492167 /* beta */ = {
 			isa = PBXGroup;
 			children = (
+				EE9BE81F1A2DD51E0079EE7D /* myCell.swift */,
+				EE9D00281A2B7CDD00492167 /* cropsViewController.swift */,
+				EE9D00261A2B7C9400492167 /* cropsTableViewController.swift */,
+				EE9D00241A2B483400492167 /* additionViewController.swift */,
+				EE9D00221A2B451500492167 /* masterTableViewController.swift */,
+				EE9D00201A2B450300492167 /* seasonViewController.swift */,
 				EE9DFFF71A2B423C00492167 /* AppDelegate.swift */,
 				EE9DFFFC1A2B423C00492167 /* ViewController.swift */,
-				EE9DFFFE1A2B423C00492167 /* Main.storyboard */,
 				EE9D00011A2B423C00492167 /* Images.xcassets */,
 				EE9D00031A2B423C00492167 /* LaunchScreen.xib */,
 				EE9DFFF91A2B423C00492167 /* beta.xcdatamodeld */,
+				EE0391CA1A2CDAF900FDA3DC /* Data.swift */,
 				EE9DFFF51A2B423C00492167 /* Supporting Files */,
 			);
 			path = beta;
@@ -110,6 +143,12 @@
 		EE9DFFF51A2B423C00492167 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EED6471A1A2F849F00079D81 /* 80.png */,
+				EED6471B1A2F849F00079D81 /* 58.png */,
+				EED647181A2F849B00079D81 /* 120.png */,
+				EE9D001C1A2B426800492167 /* beds.png */,
+				EE9D001D1A2B426800492167 /* bedsportrait.png */,
+				EE9D001A1A2B426100492167 /* no_photo.png */,
 				EE9DFFF61A2B423C00492167 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -168,6 +207,7 @@
 					};
 					EE9DFFF11A2B423C00492167 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = DR5D8KLYA9;
 					};
 				};
 			};
@@ -202,7 +242,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9D001F1A2B426800492167 /* bedsportrait.png in Resources */,
+				EED6471C1A2F849F00079D81 /* 80.png in Resources */,
 				EE9D00001A2B423C00492167 /* Main.storyboard in Resources */,
+				EE9D001E1A2B426800492167 /* beds.png in Resources */,
+				EED6471D1A2F849F00079D81 /* 58.png in Resources */,
+				EE9D001B1A2B426100492167 /* no_photo.png in Resources */,
+				EED647191A2F849B00079D81 /* 120.png in Resources */,
 				EE9D00051A2B423C00492167 /* LaunchScreen.xib in Resources */,
 				EE9D00021A2B423C00492167 /* Images.xcassets in Resources */,
 			);
@@ -224,7 +270,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE9DFFFD1A2B423C00492167 /* ViewController.swift in Sources */,
+				EE9D00231A2B451500492167 /* masterTableViewController.swift in Sources */,
+				EE9D00291A2B7CDD00492167 /* cropsViewController.swift in Sources */,
+				EE9D00211A2B450300492167 /* seasonViewController.swift in Sources */,
 				EE9DFFF81A2B423C00492167 /* AppDelegate.swift in Sources */,
+				EE9D00251A2B483400492167 /* additionViewController.swift in Sources */,
+				EE9D00271A2B7C9400492167 /* cropsTableViewController.swift in Sources */,
+				EE9BE8201A2DD51E0079EE7D /* myCell.swift in Sources */,
+				EE0391CB1A2CDAF900FDA3DC /* Data.swift in Sources */,
 				EE9DFFFB1A2B423C00492167 /* beta.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +307,7 @@
 				EE9DFFFF1A2B423C00492167 /* Base */,
 			);
 			name = Main.storyboard;
+			path = beta;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -342,9 +396,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = beta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -352,9 +408,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = beta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -402,6 +460,7 @@
 				EE9D00161A2B423D00492167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE9D00171A2B423D00492167 /* Build configuration list for PBXNativeTarget "betaTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +469,7 @@
 				EE9D00191A2B423D00492167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE9DFFED1A2B423C00492167 /* Build configuration list for PBXProject "beta" */ = {
 			isa = XCConfigurationList;
